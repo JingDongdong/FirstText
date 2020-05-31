@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <title>荆东东</title>
+    <link rel="icon" href="Resource/icon.png">
+    <!-- CSS引入-->
+    <link rel="stylesheet" href="EXternalStyle.css">
+    <style>
+        .e_first_div {
+            text-align: center;
+            margin: 25px 0;
+        }
+
+        .e_input {
+            height: 35px;
+            border-radius: 5px;
+            background: transparent;
+            border: 1px solid #ff0;
+            width: 80%;
+            caret-color:white;
+        }
+        ::-webkit-input-placeholder { /*Webkit browsers*/
+            color: white;
+            font-size: 16px;
+            position:relative;
+            left:10px;
+        }
+
+        :-moz-placeholder { /*Mozilla Firefox 4 to 8*/
+            color: white;
+            font-size: 16px;
+            position:relative;
+            left:10px;
+        }
+
+        :-moz-placeholder { /*Mozilla Firefox 19+*/
+            color: white;
+            font-size: 16px;
+            position:relative;
+            left:10px;
+        }
+
+        :-ms-input-placeholder { /*Internet Explorer 10+*/
+            color: white;
+            font-size: 16px;
+            position:relative;
+            left:10px;
+        }
+    </style>
+</head>
+<body style="background: rgb(197,2,6);text-align: center">
+<!--第一部分-->
+<!--语义标签：增加可读性-->
+<header class="DS_header" style="background: rgb(197,2,6);">
+        <img style="width: 7%;float: left;margin-top: 10px;margin-left: 5px;margin-right: 5px" src="Resource2/icon_arrow_left.png" alt="">
+    <span style="font-size: 18px;margin-right: 15px">登录</span>
+</header>
+
+<div class="e_first_div">
+    <img style="width: 55%;margin: 10px auto" src="Resource2/logo.png" alt="">
+</div>
+
+<form>
+    <div>
+        <input class="e_input" type="text" placeholder="身份证号">
+    </div>
+    <div>
+        <input class="e_input" style="margin-top: 8px;" type="text" placeholder="密码">
+    </div>
+    <div style="border-radius:5px;height:45px;width:80%;margin: 12px auto;background: rgb(228,87,78);">
+        <input style="line-height: 45px;font-size: 15px;background: transparent;color:white;border:0;" type="button" value="登录">
+    </div>
+</form>
+</body>
+</html>
